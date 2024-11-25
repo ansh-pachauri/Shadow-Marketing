@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "node email.js",
-    "build": "cd client && npm install && npm run build && cd ../server && npm install"
+    "server": "nodemon email.js"
   },
   "author": "",
   "license": "ISC",
